@@ -1,0 +1,284 @@
+html {
+  font-size: 14px;
+}
+
+/* Start Universal CSS*/
+
+.font-bold {
+  font-weight: bold;
+}
+.text-white, .text-white a  {
+  color: white;
+}
+
+.text-white a:hover {
+  text-decoration: none;
+  color: #808080;
+  transition: ease-in-out 0.25s
+}
+
+.text-black, .text-black a {
+  color: black;
+}
+
+.text-grey a {
+  color: #808080;
+}
+
+.text-grey a:hover {
+  color: white;
+  transition: ease-in-out 0.25s
+}
+
+.flex-center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*End Universal CSS*/
+
+/*Start Hover Effect*/
+.hover-effect {
+  position:relative;
+  background:black;
+}
+
+.hover-effect:hover img {
+opacity: 0.5;
+transition: ease-in-out 0.25s
+}
+/*End Hover Effect*/
+
+nav li {
+  display: inline-block;
+  margin-bottom: 2.071rem;
+}
+
+nav ul {
+    padding-left: 0;
+}
+/* End Universal CSS*/
+
+/*Sidebar*/
+
+.container-small {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: black;
+  height: 100%;
+  width: 9%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-small img {
+  height: auto;
+  max-width: 4.2rem;
+  margin-top: 3rem;
+  height: auto;
+}
+
+nav {
+  padding-top: 8rem;
+  font-size: 2rem;
+}
+
+.container-small ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shopping-bag {
+   font-size: 1rem;
+  }
+
+.number {
+  font-size: 1rem;
+}
+
+/*Post*/
+.container-big  {
+  float: right;
+  height: 50px;
+  width: 91%;
+}
+
+/*First Post*/
+
+.leaf {
+  padding-top: 6.14rem;
+  padding-bottom: 6.57rem;
+  background-color: #becbb7;
+}
+
+.image-hover-effect {
+    position:relative;
+}
+
+.image-hover-effect:after {
+    content:' ';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.3);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.image-hover-effect a {
+  z-index: 1;
+}
+
+.image-hover-effect:hover:after {
+  opacity:1;
+}
+
+.hover-effect {
+  position:relative;
+  background:black;
+}
+
+.hover-effect:hover img {
+opacity: 0.5;
+transition: ease-in-out 0.25s
+}
+
+.shop-box {
+  padding-top: 6.14rem;
+  padding-bottom: 9.3rem;
+  background: #7c9180;
+}
+
+.shop-box h2 {
+  color: #8da79d;
+  text-shadow:
+   -2px -2px 0 #fff,
+    2px -2px 0 #fff,
+    -2px 2px 0 #fff,
+    2px 2px 0 #fff;
+  font-size: 7rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+}
+
+.title-box {
+  font-size: 5.5rem;
+}
+
+/*Image Gallery*/
+
+.first-gallery-background {
+  background-color: #cac4b9;
+}
+
+.gallery-background-green {
+  background-color: #7c9180;
+}
+.gallery-background-red {
+  background-color: #7a242e;
+}
+
+.gallery-background-pink {
+  background-color: #eac9bd;
+}
+
+.gallery-background-light-green {
+  background-color: #becbb7;
+}
+
+.gallery-background-grey {
+  background-color: #646873;
+}
+
+.gallery-background-light-grey {
+  background-color: #b5b6bb;
+}
+
+.gallery-background-light-blue {
+  background-color: #9cb5c6;
+}
+
+.photo-gallery {
+  padding-top: 6.14rem;
+  padding-bottom: 6.14rem;
+}
+
+.photo-gallery img{
+  height: 25rem;
+}
+
+.photo-gallery-two-column {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.photo-gallery-two-column img{
+  height: 22rem;
+}
+
+.photo-gallery h2, .two-column h2, .box-info h2 {
+  font-size: 1.5rem;
+}
+
+.photo-gallery p, .two-column p {
+  font-size: 0.9rem;
+}
+
+.hover-gallery{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: ease-in-out 0.2s;
+}
+.hover-gallery:hover{
+  opacity: 1;
+}
+
+.all-page-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.two-column h2 {
+  padding-top: 1.8em;
+}
+
+.two-column p {
+  padding-bottom: 5em;
+}
+
+.box-info a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.box-info ul {
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+}
+
+.box-info li:first-child {
+  padding-top: 1.5rem;
+}
