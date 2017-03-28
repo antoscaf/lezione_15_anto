@@ -42,7 +42,7 @@ html {
 /*Start Hover Effect*/
 .hover-effect {
   position:relative;
-  background:black;
+  ound:black;
 }
 
 .hover-effect:hover img {
@@ -281,4 +281,34 @@ transition: ease-in-out 0.25s
 
 .box-info li:first-child {
   padding-top: 1.5rem;
+}
+
+/*Footer*/
+footer {
+  color: white;
+  background-color: #2d2d2d;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.social a {
+  color: white;
+}
+
+.social a:hover {
+  color: white;
+}
+
+.social ul {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+  padding-right: 100px;
+}
+.social li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px;
+  font-size: 16px;
 }
